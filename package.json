@@ -1,7 +1,7 @@
 {
 	"name"           : "collections",
 	"description"    : "Key-value store supporting node-tiny and mongodb",
-	"version"        : "0.0.1",
+	"version"        : "0.0.2",
 	"keywords"       : ["database", "key-value", "mongo", "tiny"],
 	"homepage"       : "http://github.com/SDA/connect-cors",
 	"author"         : "Sasa Djolic <sasa.djolic@sdaworld.com>",
