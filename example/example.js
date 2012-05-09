@@ -34,7 +34,7 @@ require('../lib/collections.js').connect(optionsformongo, function(collections) 
 
 				// Retrieve all items stored in the same collection. Since we only
 				// added one, we'd only expect to receive one item in the collection.
-				collections.find('test', {query: null, skip: 0, limit: 10}, function(err, items) {
+				collections.find('test', {}, {skip: 0, limit: 10}, function(err, items) {
 
 					console.log('Found ' + items.length + ' items');
 					for (var i in items) {
